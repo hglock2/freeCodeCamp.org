@@ -3,8 +3,6 @@ html {
 }
 
 body {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   color: #333;
 }
@@ -14,8 +12,9 @@ body {
   border-width:3px;
   border-color: rgb(250, 250, 250);  
   border-style:ridge;
-  margin: 25px 5px;
+  margin: auto;
   padding: 0px;
+  
 }
 
 #title {
@@ -55,6 +54,9 @@ img {
 }
 a {
   font-size: 2rem;
+}
+p {
+  font-size: 1.5rem;
 }
 
 @media (max-width: 480px) {
